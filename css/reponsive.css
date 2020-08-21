@@ -1,0 +1,205 @@
+/* Mobile */
+@media screen and (max-width: 575px) {
+    .nav-item .nav-link a{
+        padding-left : 0px;
+    }
+    .nav-link:hover:after{
+        display: none;
+    }
+    .navbar-logo img {
+        height: 55px;
+       
+        width: 115px;
+    }
+    .content-info{
+       height:400px
+    }
+    .contain-title p {
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    .contain-product-project{
+        margin-bottom: 15px;
+    }
+    .contain-product-production{
+        margin-bottom: 25px;
+    }
+    .tab{
+        width: 25%;
+    }
+    .tabcontent{
+        width: 75%;
+    }
+    .tab button {
+        padding: 22px 4px;
+    }
+    .box{
+        display: none;
+    }
+    .footer{
+        height: 820px;
+        background: darkcyan;
+    }
+    .footer-flowwing{
+        margin-top: 21px;
+        margin-left: -24px;
+    }
+    .footer-address{
+        margin-left: -24px;
+    }
+    .pd-r-57pc{
+        padding-right: 50%;
+    }
+    .contain-title p{
+        font-size: 34px;
+    }
+    .w-100 {
+        width: 260%!important;
+    }
+    .contain-title--text{
+        top:8%;
+    }
+    .carousel-title{
+        left: 3.5%;
+        text-align: center;
+    }
+    .carousel-title h1{
+        font-size:5rem;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding-left:2px;
+    }
+    .carousel-title h1{
+        /* font-family: 'Beyond'; */
+        font-weight: bold;
+        font-family: 'Calligraffitti';
+        animation: width 1.2s ease-out 0s 1 forwards;
+    }
+    @keyframes width{
+        0%{
+            font-size:  0rem;
+            opacity: 0;
+        }
+        50%{
+            font-size:  3rem;
+            opacity: 0.5;
+        }
+        100%{
+            font-size:  5rem;
+            opacity: 1;
+        }
+    }
+    #dancing{
+        font-weight: bold;
+        font-family: 'Calligraffitti';
+        animation: width 1.2s ease-out  0s 1 forwards;
+    }
+    @keyframes width{
+        0%{
+            font-size:  0rem;
+            opacity: 0;
+        }
+        50%{
+            font-size:  3rem;
+            opacity: 0.5;
+        }
+        100%{
+            font-size: 3.5rem;
+            opacity: 1;
+        }
+    }
+    .carousel-title p {
+        margin-top: -25px;
+    }
+    #text-dancing{
+        margin-top: -5px;
+    }
+    .contain-product-production{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contain-title {
+        height: 187px;
+    }
+    .navbar-logo p{
+        padding-left: 0rem;
+    }
+    .thumb [alt="caculator"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/* Pc Table */
+@media screen and (min-width : 576px){
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 50px;
+    }
+    .content-info{
+        height: 400px;
+    }
+    .contain-product-select:hover{
+        display: block;
+    }
+}
+/* TABLET IPAD */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contain-product{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .contain-product >.contain-product-production{
+        color: blue;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 38px;
+    }
+    .carousel-title{
+        left: 21%;
+    }
+    .footer {
+        height: 675px;
+    }
+    .footer-logo img {
+        width: 100px;
+        margin: 0;
+    }
+    .footer-flowwing ul{
+        margin: 0;
+    }
+    .footer-flow-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: whitesmoke;
+        padding-left: 0;
+    }
+    .footer-flow-title ul{
+        margin: 0;
+        padding: 0;
+    }
+    .pd-r-57pc {
+        padding-right: 0;
+    }
+    .footer-flow-item{
+        padding-left: 0;
+    }
+    .desc .contain-product-select .select-button {
+        position: absolute;
+        left: 32%;
+    }
+    .contain-product-production h3 {
+        left: 19%;
+    }
+    #travel {
+        left: 26%;
+    }
+    .contain-product-production #blogger{
+        left: 23%;
+    }
+    .thumb [alt="caculator"] {
+       padding-left: 0;
+       padding-right: 0;
+    }
+}
